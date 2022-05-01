@@ -12,7 +12,7 @@ const terminalCommand = async (cmd) => {
 const pushIt = async () => {
   const commands = [
     `git add .`,
-    `git commit -m "${process.argv[2] || "Fast push by PushIt"}`,
+    `git commit -m "${process.argv[2] || "Fast push by PushIt"}"`,
     `git push`,
     `git status`,
   ];
